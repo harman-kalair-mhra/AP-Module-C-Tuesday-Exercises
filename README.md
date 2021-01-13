@@ -21,3 +21,17 @@ MaDaM converted to lower case is: madam
 ```
 ## 3: Palindrome Checker
 In-progress
+
+## PRIMER: Password Validator
+This C++ program validates user login credentials. The program prompt the user for a username and password and compare them against already known credentials. If the username provided exists and the password matches the program displays “Welcome” followed by the users first name. If the username does not exist or the password is incorrect a “Failed to Authenticate” message is shown.
+
+Example format shown below:
+```
+Username: mike@ada.ac
+Password: AdaRocks
+Welcome Mike
+--OR--
+Username: casper@ada.ac
+Password: AdaRocks
+Failed to Authenticate
+```
