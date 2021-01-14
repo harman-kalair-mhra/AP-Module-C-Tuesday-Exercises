@@ -35,3 +35,19 @@ Username: casper@ada.ac
 Password: AdaRocks
 Failed to Authenticate
 ```
+
+## PRIMER: Password Complexity Checker
+This C++ program determines the complexity of password based on the following rules:
+
+* Weak (value: 1) – only numeric or only alphabetic characters
+* Moderate (value: 2) – at least 4 characters and is not ‘Weak’, ‘Strong’ or ‘Very Strong’
+* Strong (value: 3) – at least 8 characters; including at least 2 numeric and at least 4 alphabetic
+* Very Strong (value: 4) – at least 8 characters; including at least 2 numeric, at least 4 alphabetic and 1 special
+
+Example format shown below:
+```
+The password ‘12345678’ is Weak
+The password ‘AB235’ is Moderate
+The password ‘Password2021’ is Strong
+The password ‘Password2021!’ is Very Strong
+```
